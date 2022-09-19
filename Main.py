@@ -2,12 +2,16 @@ import re
 
 def display_hash(hashtable) -> None:
 	# Write your code here
+	if 
 
 def Hashing(keyvalue) -> int:
 	return keyvalue % len(HashTable)
 
 def insert(Hashtable, keyvalue, value) -> None:
 	# Write your code here
+	while(keyvalue % len(HashTable)):
+		keyvalue=keyvalue[value]
+		
 
 
 # Do not edit the following code
